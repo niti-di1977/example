@@ -1,0 +1,34 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="j2cQis-#=iSg_eXV#4t}">mySprite</variable><variable type="KIND_SpriteKind" id="d:+}Z;g3Cr-wnFSQ9K[A">Player</variable><variable type="KIND_SpriteKind" id=")BT+FYJ*BIc[%L5T6Txz">Projectile</variable><variable type="KIND_SpriteKind" id="GMvV^A#Cyr8a2Wp:S7gP">Food</variable><variable type="KIND_SpriteKind" id="l0}5i4CV1T8OJM*8)}0O">Enemy</variable></variables><block type="pxt-on-start" id="ApR,@_yX==Y|s29*cMpa" x="0" y="0"/><block type="variables_set" id="1G)$i_coIV+;?Vr4,ZNu" disabled="true" x="110" y="150"><field name="VAR" id="j2cQis-#=iSg_eXV#4t}">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="HTw~:+0*=dqhL$0I+lqY" disabled="true"><value name="img"><shadow type="screen_image_picker" id="`v2#6U0:]Kx8*7Wu#-w|" disabled="true"><field name="img">img`
+...........ccccc66666...........
+........ccc4444444444666........
+......cc444444444bb4444466......
+.....cb4444bb4444b5b444444b.....
+....eb4444b5b44444b44444444b....
+...ebb44444b4444444444b444446...
+..eb6bb444444444bb444b5b444446..
+..e6bb5b44444444b5b444b44bb44e..
+.e66b4b4444444444b4444444b5b44e.
+.e6bb444444444444444444444bb44e.
+eb66b44444bb444444444444444444be
+eb66bb444b5b44444444bb44444444be
+fb666b444bb444444444b5b4444444bf
+fcb666b44444444444444bb444444bcf
+.fbb6666b44444444444444444444bf.
+.efbb66666bb4444444444444444bfe.
+.86fcbb66666bbb44444444444bcc688
+8772effcbbbbbbbbbbbbbbbbcfc22778
+87722222cccccccccccccccc22226678
+f866622222222222222222222276686f
+fef866677766667777776667777fffef
+fbff877768f86777777666776fffffbf
+fbeffeefffeff7766688effeeeefeb6f
+f6bfffeffeeeeeeeeeeeeefeeeeebb6e
+f66ddfffffeeeffeffeeeeeffeedb46e
+.c66ddd4effffffeeeeeffff4ddb46e.
+.fc6b4dddddddddddddddddddb444ee.
+..ff6bb444444444444444444444ee..
+....ffbbbb4444444444444444ee....
+......ffebbbbbb44444444eee......
+.........fffffffcccccee.........
+................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"`v2#6U0:]Kx8*7Wu#-w|"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="akO:OjERv};Iz]kacaG?" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block><block type="device_pause" id="3C|/H`%b(!LX+F1i[aZH" disabled="true" x="10" y="230"><value name="pause"><shadow type="timePicker" id="cTQ041u8g3dr][WeVv%2" disabled="true"><field name="ms">100</field></shadow></value></block><block type="keyonevent" id="h(jI1Y}L/l5NQsv3]U!O" x="147" y="287"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="console_log" id="i$;vE`#N#YO2L-_Rd=I2"><value name="value"><shadow type="text" id="|2QbCX-lMH(Ecc`5NS5h"><field name="TEXT">Hello</field></shadow></value></block></statement></block><block type="gamesetbackgroundcolor" id="?Sk(k*|]MU1}H%{%4S7F" disabled="true" x="410" y="290"><value name="color"><shadow type="colorindexpicker" id="]Jl~Bt5$WlB)}%Al`M-3" disabled="true"><field name="index">10</field></shadow></value></block></xml>
